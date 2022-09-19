@@ -1,0 +1,4 @@
+#timeout in millis
+selenide:
+  timeout: 15000
+  browserSize: "1920x1080"

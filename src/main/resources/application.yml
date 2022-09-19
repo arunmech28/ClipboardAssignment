@@ -1,0 +1,12 @@
+#chrome, firefox => default-chrome
+browser: "chrome"
+  #local, remote => default => local
+runmode: "remote"
+  #seleniumgrid or selenoid url
+remote:
+  url: "http://localhost:4444/wd/hub"
+application:
+  url: "https://amazon.in"
+spring:
+  profiles:
+    include : "selenide"
